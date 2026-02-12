@@ -1,0 +1,174 @@
+  143  git status
+  145  git init
+  146  git branch -M main
+  148  sudo apt install git -y
+  151  sudo apt install git -y
+  155  git status
+  156  git init
+  162  git --version
+  164  git init
+  165  git add README.md
+  167  git init
+  168  git add README.md
+  169  git commit -m "first commit"
+  170  git branch -M main
+  171  git remote add origin git@github.com:skrtsl23-alt/Seminars2026.git
+  172  git config --global user.name "skrtsl23-alt"
+  173  git config --global user.email "skrtsl23-alt@users.noreply.github.com"
+  174  git commit -m "first commit"
+  175  git branch -M main
+  176  git remote add origin git@github.com:skrtsl23-alt/Seminars2026.git
+  177  git config --global --list
+  178  git push -u origin main
+  179  git remote set-url origin https://github.com/skrtsl123-alt/Seminars2026.git
+  180  git push -u origin main
+  182  git commit -m "first commit"
+  183  git branch -M main
+  184  git remote add origin https://github.com/skrtzsl23-alt/Seminars2026.git
+  185  git push -u origin main
+  186  git remote remove origin
+  187  git remote add origin https://github.com/skrtsl123-alt/Seminars2026.git
+  189  git add .
+  190  git commit -m "first commit"
+  191  git push -u origin main
+  193  git remote -v
+  194  git remote remove origin
+  195  git remote add origin https://github.com/skrtsl123-alt/Seminars2026.git
+  196  git push -u origin main
+  199  git remote remove origin
+  200  git remote add origin git@github.com:skrtsl123-alt/Seminars2026.git
+  201  ssh -T git@github.com
+  202  git push -u origin main
+  203  git remote remove origin
+  204  git remote add origin git@github.com:skrtzsl23/Seminars2026.git
+  205  git remote -v
+  206  git push -u origin main
+  209  git remote remove origin
+  210  git remote add origin git@github.com:skrtzsl23-alt/Seminars2026.git
+  211  ssh -T git@github.com
+  213  git remote remove origin
+  214  git remote add origin git@github.com:skrtzsl23/Seminars2026.git
+  215  git push -u origin main
+  216  git remote remove origin
+  218  git remote remove origin
+  219  git remote add origin git@github.com:skrtzsl23-alt/Seminars2026.git
+  220  git push -u origin main
+  221  git checkout -b develop
+  223  git add data/samples.tsv
+  224  git commit -m "add samples.tsv"
+  225  git log -1          # последний коммит
+  227  git remote -v
+  228  git checkout main
+  229  echo "git log shows history of commits (who, when, message). git show displays changes in a specific commit." > diff.file
+  230  git add diff.file
+  231  git commit -m "add diff between log and show"
+  232  git push origin main
+  233  git checkout develop
+  235  git add scripts/test_script.sh
+  236  git commit -m "add test script"
+  237  git log --oneline
+  238  git revert HEAD
+  239  git show HEAD > revert_info.txt
+  240  git add revert_info.txt
+  241  git commit -m "add git show output"
+  242  git push origin develop
+  244  git clone https://github.com/Weakne55/Bioinformatics305.git
+  246  git remote remove origin
+  247  git remote add origin git@github.com:skrtzsl23-alt/hw.git
+  248  git remote -v
+  249  git remote set-url origin https://github.com/skrtzls123-alt/Hw.git
+  251  git status
+  252  git remote -v
+  253  git branch
+  254  git push -u origin main
+  255  git push -u origin master
+  258  git remote set-url origin git@github.com:skrtzls123-alt/Hw.git
+  259  git remote -v
+  260  ssh -T git@github.com
+  262  ssh -T git@github.com
+  263  git push -u origin master
+  264  git remote set-url origin https://github.com/skrtzsl23-alt/Hw/git
+  265  git remote -v
+  266  git push -u origin master
+  267  git remote set-url origin https://github.com/skrtzsl23-alt/Hw.git
+  268  git remote -v
+  269  git push -u origin master
+  270  git remote set-url origin git@github.com:skrtzsl23-alt/Hw.git
+  271  git remote -v
+  272  git push -u origin master
+  274  git clone https://github.com/Weakne55/Bioinformatics305.git
+  276  git remote -v
+  277  git remote remove origin
+  278  git remote add origin git@github.com:skrtzsl23-alt/Bioinformatics305
+  279  git
+  280  git branch
+  281  git push -u origin master
+  282  ssh -T git@github.com
+  283  git remote -v
+  284  git push -u origin master
+  287  git add
+  288  git add .
+  289  git commit -m "Cleanup temp files"
+  290  git push origin master
+  291  git status
+  292  git push origin master
+  293  git log --oneline
+  294  git status
+  295  git branch
+  296  git remote -v
+  297  git remote set-url origin git@github.com:skrtzsl23-alt/Bioinformatics305.git
+  298  git remote -v
+  300  git add .
+  301  git commit -m "Cleanup temp files"
+  302  git log --oneline
+  306  git add .
+  307  git commit -m "Cleanup temp files"
+  308  git log --oneline
+  317  git add .
+  318  git commit -m "Cleanup temp files"
+  319  git push origin master
+  320  git log --oneline
+  321  git checkout master
+  325  git checkout -b investigation
+  326  git add infected_reads.txt
+  327  git commit -m "add infected reads with TGCA"
+  328  git push origin investigation
+  329  git checkout investigation
+  332  git add mini_run.fastq
+  333  git commit -m "add mini_run.fastq_50"
+  334  git push origin investigation
+  335  git checkout master
+  337  git status
+  338  git checkout master
+  340  git status
+  341  git restore lab_disaster/experiment.log
+  343  echo "git restore lab_disaster/experiment.log" > command.txt
+  344  git push origin master
+  345  git add command.txt
+  346  git commit -m "com restore experiment.log"
+  347  git push origin master
+  353  git add sort.txt
+  354  git commit -m "sort user counts"
+  355  git push origin master
+  356  git merge investigation
+  357  git push origin master
+  361  git add genes_fixed.csv
+  362  git commit -m "genes in csv"
+  363  git push origin master
+  365  ping -c 2 github.com
+  366  git push origin master
+  367  git checkout -b cleaning
+  370  git add diskusage.file
+  371  git commit -m "large files and fastq"
+  372  git push origin cleaning
+  373  git checkout master
+  375  git add lovely_file.txt
+  376  git commit -m "add any (lovely) file"
+  377  git log --oneline -1
+  379  git add forgotten.txt
+  380  git commit --amend --no-edit
+  381  git log --oneline -1
+  383  git add amend.txt
+  384  git commit -m "amend (ask xeh)"
+  385  git push origin master
+  386  history | grep git > report_commands.txt
